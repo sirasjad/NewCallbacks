@@ -1,4 +1,4 @@
-#if !defined POTENTIAL_CRASH_DAMAGE
+#if !defined POTENTIAL_CRASH_DAMAGE 
 	#define POTENTIAL_CRASH_DAMAGE (55.0)
 #endif
 
