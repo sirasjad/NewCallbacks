@@ -1,9 +1,7 @@
-New SA-MP callbacks
-===================
+#New SA-MP callbacks
 This is a collection of useful callbacks for SA-MP, that works with every SA-MP version.
 
-List of Callbacks
-===================
+##List of Callbacks
 The following callbacks are included with this library:
 ```
 // Called when a player pauses their game.
@@ -76,8 +74,7 @@ forward OnPlayerUseCamera(playerid);
 forward OnPlayerSprayAtVehicle(playerid, vehicleid);
 ```
 
-Functions
-===================
+##Functions
 External functions for this library:
 ```
 // Returns 1 if the player is paused.
@@ -117,8 +114,7 @@ stock GetPlayerPausedTime(playerid);
 stock GetPlayerFPS(playerid);
 ```
 
-Example
-===================
+##Example
 ```
 public OnPlayerResume(playerid, time)
 {
